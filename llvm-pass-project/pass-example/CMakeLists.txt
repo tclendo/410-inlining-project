@@ -1,0 +1,1 @@
+add_library(NewInliningProjectPass MODULE NewInliningProject.cpp)
