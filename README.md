@@ -22,8 +22,8 @@ make
 
 ```
 opt -disable-output
-    -load-pass-plugin=pass-example/libNewInliningProjectPass.so \
-    -passes="new-inlining-pass" ../test.ll
+    -load-pass-plugin=inlining-source/libNewInliningProjectPass.so \
+    -passes="new-inlining-pass" ../testFiles/hello.ll
 ```
 
 How to compile code to emit readable llvm IR:
